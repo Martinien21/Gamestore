@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to packager - Experimental",
+            "request": "attach",
+            "type": "reactnative",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Flutter: Attach to Device",
+            "type": "dart",
+            "request": "attach"
+        },
+        {
+            "name": "Run Android Hermes",
+            "request": "launch",
+            "type": "reactnativedirect",
+            "cwd": "${workspaceFolder}",
+            "enableDebug": false,
+            "platform": "android"
+        },
+        /*  {
+            "name": "Debug Android (pixel 4)",
+            "program": "${workspaceFolder}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "android",
+            "sourceMaps": true,
+            //"outDir": "${workspaceRoot}/.vscode/.react"
+        }*/
+    ]
+}
