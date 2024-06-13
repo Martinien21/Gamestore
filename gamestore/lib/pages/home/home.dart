@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:gamestore/pages/home/Widgets/Header.dart';
+import 'package:gamestore/pages/home/Widgets/header.dart';
 import 'package:gamestore/pages/home/Widgets/category.dart';
 import 'package:gamestore/pages/home/Widgets/search.dart';
-//import 'package:gamestore/pages/home/Widgets/header.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
